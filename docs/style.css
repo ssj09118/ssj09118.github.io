@@ -9,7 +9,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin: 0px;
 }
+
+
 
 .navbar {
     position: absolute;
@@ -21,6 +25,11 @@
     flex-direction: row;
     justify-content: end;
     align-items: start;
+    margin-right: 10px;
+}
+
+.navbarelements{
+    margin: 10px;
 }
 
 .recents {
@@ -48,21 +57,123 @@
     background-color: chocolate;
 }
 
-
-
-
-.div1 {
-    border: 1px dotted rgb(66, 53, 53);
-    background-color: brown;
+.srchbar {
+    position: static;
 }
 
-#div2 {
-    /* margin: 10vw;
-    border: 5px solid #000000;
-    padding: 1rem; */
+input.google {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPnxefHYLnvWuIF1nChEInB3ekM6BbxYGzHA&s") no-repeat;
+    width: 265px;
+    height: 100px;
+    border: none;
+    background-size: contain;
+  }
+
+.mag {
+    width: 20px;
+    height: 20px;
+    border: none;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: gray;
+    left: 15px;
+    top: 14px;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    height: 26px;
+    width: 550px;
+    background: white;
+    border-radius: 26px;
+    padding: 10px;
+    border: 1px solid rgb(231, 231, 231);
+    box-shadow: 0px 2px 10px rgb(219, 219, 219);
+}
+
+.query {
+    border: none;
+    background: none;
+    outline: none;
+    margin: 3px;
+    padding: 0px;
+    color: #797979;
+    font-size: 16px;
+    line-height: 30px;
+    width: 200px;
+    position: absolute;
+    left: 45px;
+    top: 8px;
+}
+
+.typetool {
+    background: url("https://brandeps.com/icon-download/K/Keyboard-icon-vector-01.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-size: contain;
+    position: absolute;
+    right: 100px;
+    top: 13px;
+  }
+
+.voice {
+    background: url("https://brandeps.com/icon-download/K/Keyboard-voice-icon-vector-01.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-size: contain;
+    position: absolute;
+    right: 60px;
+    top: 13px;
+  }
+
+.imagesrch {
+    background: url("https://brandeps.com/icon-download/P/Photo-icon-vector-02.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-size: contain;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+  }
+
+.recents{
+    margin: 20px;
+}
+
+.googlesrch{
+    height: 35px;
+    width: 110px;
+    background: rgb(247, 247, 247);
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+}
+
+.lucky{
+    height: 35px;
+    width: 150px;
+    background: rgb(247, 247, 247);
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+}
+
+.bottom{
+    background: rgb(231, 231, 231);
+    height: 45px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomelements{
+    margin-left: 23px;
+    margin-right: 23px;
 }
