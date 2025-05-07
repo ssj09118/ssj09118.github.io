@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    padding: 15px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.navbar div {
+    font-size: 10px;
+}
+
+.title1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 10% 90px;
+}
+
+.left1 {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container{
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    border-radius: 26px;
+    width: 80%;
+}
+
+.title2 {
+    padding: 90px 10% 90px;
+}
+
+.left2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.carousel-container {
+    padding: 90px 10% 50px;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+    transition: cubic-bezier(0.46, 0, 0.5, 1.06) 0.5s;
+}
+
+.carousel > div {
+    position: relative;
+    overflow: hidden;
+    height: 680px;
+    width: 372px;
+    flex-shrink: 0;
+    border-radius: 26px;
+}
+
+.h1 {
+    position: absolute;
+    top: 32px;
+    left: 35px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h2 {
+    position: absolute;
+    top: 62px;
+    left: 35px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.white {
+    color: white;
+}
+
+.carousel img {
+    transform: translate(0, -50px);
+    user-select: none;
+}
+
+.buttonsmom {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 40px;
+    margin-right: 50px;
+    margin-bottom: 140px;
+}
+
+.buttonsmom button {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border-radius: 36px;
+    border: none;
+}
+
+.buttonsmom svg {
+    color: rgb(150, 150, 150);
+}
